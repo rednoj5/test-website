@@ -85,6 +85,7 @@ body {
     flex: initial;
     justify-content: center;
     gap: 50px;
+    padding: 0px 144px;
 }
 
 .photos div {
@@ -99,26 +100,73 @@ body {
     border-radius: 5px;
 }
 
+.photos div p {
+    text-align: justify;
+}
+
 .quote {
     background-color: #E5E7EB;
-    padding: 0px 144px;
+    padding: 0px 288px;
     display: flex;
-    flex-flow: column;
+    flex-flow: column nowrap;
     justify-content: center;
+    height: 400px;
 }
 
 #quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    font-weight: lighter;
+    font-weight: 300;
     margin-bottom: 0px;
+    overflow: hidden;
 }
 
 #author {
     align-self: flex-end;
     font-size: 24px;
     font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#text h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+#text p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #E5E7EB;
+    margin: 0%;
+}
+
+.bluebox {
+    display: flex;
+    background-color: #3882f6;
+    height: 200px;
+    width: 1200px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.bluebox button {
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 24px;
 }
 
 .footer {
